@@ -8,10 +8,7 @@
     font-family: yuseimagic;
     src: url(fuentes/YuseiMagic-Regular.ttf);
 }
-@font-face{
-    font-family: codacaption;
-    src: url(fuentes/CodaCaption-ExtraBold.ttf);
-}
+
 
 /* Estilo h1 */
 h1.practica{
@@ -65,7 +62,7 @@ div.separador{
 /* letra  */
 
 div.letra{
-    font-family: 'codacaption',sans-serif;
+    font-family: 'Coda Caption', sans-serif;
     font-weight: bolder;
     font-size: 150%;
     line-height: 150%;
