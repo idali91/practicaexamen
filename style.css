@@ -1,0 +1,79 @@
+/* fuentes  */
+@font-face{
+    font-family: pottaone;
+    src: url(fuentes/PottaOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: yuseimagic;
+    src: url(fuentes/YuseiMagic-Regular.ttf);
+}
+@font-face{
+    font-family: codacaption;
+    src: url(fuentes/CodaCaption-ExtraBold.ttf);
+}
+
+/* Estilo h1 */
+h1.practica{
+    background-color: blue;
+    color: yellow;
+    font-family: 'pottaone' , sans-serif;
+    text-align: center;
+    width: 80%;
+
+}
+
+/* primer div  */
+
+div.primero{
+    background-color: cadetblue;
+    color: white;
+    width: 25% ;
+    float: left;
+    line-height: 150%;  
+    
+}
+
+/* segundo div */
+
+div.segundo{
+    background-color: black;
+    color: yellow;
+    line-height: 200%;
+    display: inline;
+    
+}
+
+/* anchura hr */
+
+hr.anchura{
+    width: 50%;
+}
+
+/* Para que no se monte */
+p.limpia{
+    clear: both;
+}
+
+/* separador br */
+
+div.separador{
+    background-color: blue;
+    width: 50%;
+}
+
+/* letra  */
+
+div.letra{
+    font-family: 'codacaption',sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+    line-height: 150%;
+}
+
+div.letra2{
+    font-family: 'yuseimagic' , sans-serif ;
+    font-size: 150%;
+    font-weight: bolder;
+    line-height: 150%;
+}
